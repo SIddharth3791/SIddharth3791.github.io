@@ -9,12 +9,18 @@ I am actively seeking Full Time Software Developer position. I am located in Nor
 
 #Technical Skills
  
-(1) Programming Software  : Java, PHP, C++, Swift, SQL,
+(1) Programming Software  : Java, PHP, C++, Swift, SQL
+
 (2) Framework                 : Spring Web MVC, Hibernate ORM ,Spring Data, Spring Security, Spring REST, Spring Web Flow, 
+
 (3) Web Technologies          : HTML5, CSS3, Angular JS, JavaScript, JSP, JSON, jQuery, Bootstrap
-(4) Software Platforms        : Spring Tool Suit, Eclipse, Sublime Text 2, Visual Studio, Xcode, Android Studio,
+
+(4) Software Platforms        : Spring Tool Suit, Eclipse, Sublime Text 2, Visual Studio, Xcode, Android Studio
+
 (5) Databases                 : PostgreSQL, MySQL, MongoDB, AWS, Parse, Firebase, SQL Server
-(6) Source Control            : GitHub, Rally, Artifactory, Jenkins Build,
+
+(6) Source Control            : GitHub, Rally, Artifactory, Jenkins Build
+
 (7) Cloud Service             : Amazon Web Services, Pivotal Cloud Foundry, Google Cloud Platform
 
 #Technical Background and Courses 
