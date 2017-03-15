@@ -1,11 +1,11 @@
 # Siddharth Patel 
 
-I am actively seeking Full Time Software Developer position. I am located in North Carolina but i am open to self-relocation under appropiate opprunity 
-#Relocate                : Yes
-#Position                : Java Developer, iOS Developer, Web Developer 
-#Seniority               : Junior Level
-#Highest Education level : Master's in Software Engineering
-#School                  : East Carolina University
+I am actively seeking Full Time Software Developer position. I am located in North Carolina but i am open to self-relocation under appropriate opportunity
+# Relocate                : Yes
+# Position                : Java Developer, iOS Developer, Web Developer 
+# Seniority               : Junior Level
+# Highest Education level : Master's in Software Engineering
+# School                  : East Carolina University
 
 #Technical Skills
  
