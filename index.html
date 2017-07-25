@@ -171,7 +171,7 @@
                             </div>
                         </div>
                         <img src="img/portfolio/thumbnails/2.png" class="img-responsive" alt="">
-                        <p class="imgDescription" align="center">Fit Geek iPhone Application: Fitness iOS Application<br><br></p>
+                        <p class="imgDescription" align="center">ClearSky-Weather- IOT Spring Boot Application<br><br></p>
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -204,7 +204,7 @@
                             </div>
                         </div>
                         <img src="img/portfolio/thumbnails/5.png" class="img-responsive" alt="">
-                        <p class="imgDescription" align="center">PlayMeTube: Video Player iOS Application<br><br></p>
+                        <p class="imgDescription" align="center">Telegram Web Application: LAMP Stack Single Page Application using AWS Services for CI/CD<br><br></p>
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -215,7 +215,7 @@
                             </div>
                         </div>
                         <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
-                        <p class="imgDescription" align="center">Java Maven Web Application: Online To-Do Web App<br><br></p>
+                        <p class="imgDescription" align="center">Bookart: Single Page Application using JavaScript<br><br></p>
                     </a>
                 </div>
             </div>
@@ -264,7 +264,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2 align="center"><a href="https://github.com/SIddharth3791/FitApp-GitHub-Project">Fit Geek iPhone Application:</a></h2>
+                            <h2 align="center"><a href="https://github.com/SIddharth3791/FitApp-GitHub-Project">ClearSky-Weather- IOT Spring Boot Application</a></h2>
                             <hr class="star-primary">
                         </div>
                     </div>
@@ -283,13 +283,24 @@
                 <div class="col-lg-2">
                 </div>
                 <div class="col-lg-8">
-                <ul>
-                <li align="justify">This application was all about the fitness and healthy diet options. Helping users to get easy access to workout and guide them through healthy food alternatives to maintain good diet </li>
-                <li align="justify">Another aspect of this application was to count BMI (Body Mass Index) and help user know their calorie intake </li>
-                <li align="justify">The application comprises functions like counting calories and tracking calories with interactive view controllers screen.</li>
-				<li align="justify">It used Apple maps to locate food joints (Arby’s, McDonald’s, Sheetz) within 10-mile radius of user’s location to receive food options to maintain healthy diet.</li> 
-				<li align="justify">All Data is stored on MongoDB cluster that runs on AWS Elastic Cloud Computing (EC2) Instance.  </li>		
-                <h4><b>Technologies:</b></h4> Swift, Amazon Web Service, MongoDB, Parse Server & REST 
+                 <ul>
+							<li align="justify">Developed a Spring Boot application, which calls REST endpoint that accepts the weather reading from weather sensor and store in data store MySQL using Hibernate (ORM).</li>
+                            <li align="justify">
+                            Spring JPA  is used fetch data from MySQL to serve business logic.  
+                            </li>
+                             <li align="justify">
+                            AWS EC2 and Jenkins are used for CI/CD of this Project. Any new commits in GitHub will trigger Jenkins to run build
+                            </li>
+                             <li align="justify">
+                            Project runs on AWS EC2 instance and can be accessed at EC2 public DNS. 
+                            </li>
+                            <li align="justify">
+                            AWS RDS services was used to for Database and AWS S3 service to store Static files
+                            </li>
+                            <li align="justify">
+                            Used Swagger-UI for dynamically generating beautiful documentation from Swagger-compliant API. 
+                            </li>
+                <i><h4><b>Technologies:</b></h4> Java, Spring Framework, Spring Boot, Hibernate(ORM), REST, AWS EC2, MySQL,Swagger-UI, Jenkins and Docker</li></i>
                 </ul>
         
                 <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -428,7 +439,7 @@
               				<li align="justify">This project helped member to get workouts, which gets randomly generated using categories like Body Part, Level of Fitness
 and Type of Workout</li>
 							<li align="justify">PostgreSQL was used as backend and storage for user entered data</li>
-                <h4><b>Technologies:</b></h4> Java, Swingjava) & PostgreSQL </li>
+                <h4><b>Technologies:</b></h4> Core Java, Swing & PostgreSQL </li>
                 </ul>
              
                 <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -451,7 +462,7 @@ and Type of Workout</li>
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2 align="center"><a href="https://github.com/SIddharth3791/PlayMeTube">PlayMeTube: Video Player iOS Application</a></h2>
+                            <h2 align="center"><a href="https://github.com/SIddharth3791/Telegram-Web-App">Telegram Web Application: LAMP Stack Single Page Application using AWS Services for CI/CD</a></h2>
                             <hr class="star-primary">
                         </div>
                     </div>
@@ -472,13 +483,26 @@ and Type of Workout</li>
                 <div class="col-lg-2">
                 </div>
                 <div class="col-lg-8">
-                <ul>
-               			    <li align="justify">Developed and Designed an iOS application which was integrated with Google API and Services </li>
-							<li align="justify">YouTube AP, one of Google’s API service used to fetch data from YouTube database</li>
-							<li align="justify"> HTTP GET request was used to fetch data and result were acquired in JSON</li>
-                            <li align="justify"> Application fetched data that does not require user Sign In</li>
+		                <ul>
 
-                <h4><b>Technologies:</b></h4> Xcode, Swift, Objective-C, Google Cloud, YouTube API, JSON, HTML and GitHub </li>
+                            <li align="justify"> Used Laravel framework dependencies to implement this project.</li>
+
+                            <li align="justify">
+                                Composer is use to manage dependency in this application
+                            </li>
+
+                            <li align="justify">
+                                Application ran on AWS EC2 instance and Stored Static files in AWS S3 Buckets.
+                            </li>
+
+                            <li align="justify">
+                                AWS components like Elastic BeanStack along with CodePipeline was used to make application CI/CD • Phinx is used to migrate Database and AWS RDS was used to host MySQL DB
+                            </li>
+                            <li align="justify">
+                                PHPUnit was used to run unit tests on the application before pushing to GitHub. Automated testing of UI was done using Python and Selenium.
+                            </li>
+
+                <i><h4><b>Technologies:</b></h4> PHP, Python, MySQL, HTML,CSS, AWS Elastic Beanstalk, AWS Lambda, AWS CodePipeLine, Selenium, PHPUnit</li></i><br>
                 </ul>
                 
                 <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -501,7 +525,7 @@ and Type of Workout</li>
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2 align="center"><a href="https://github.com/SIddharth3791/Java-Maven-Web-application">Java Maven Web Application:</a></h2>
+                            <h2 align="center"><a href="https://github.com/SIddharth3791/Bookart-WebApp">Bookart: Single Page Application using JavaScript</a></h2>
                             <hr class="star-primary">
                         </div>
                     </div>
@@ -522,12 +546,16 @@ and Type of Workout</li>
                 <div class="col-lg-2">
                 </div>
                 <div class="col-lg-8">
-                <ul>
-                <li align="justify"> Developed Java web application using Spring MVC</li>
-							<li align="justify"> Web application perform Spring REST Web Services </li>
-							<li align="justify"> Final Application is A TO-DO List application </li>
-               
-                <h4><b>Technologies:</b></h4>Java, Spring MVC, Hibernate, HtML5 & REST</li>
+			
+		<ul>
+
+                            <li align="justify"> Design and Developed Single Page Application using JavaScript and Angular framework.</li>
+                             <li align="justify"> Application Functionality, where user can search a book from database and add to cart to buy them. • User interface was developed using HTML, CSS3, Angular and Bootstrap</li>
+                             <li align="justify"> Used JQuery for DOM manipulation when required</li>
+                             <li align="justify">Mobile responsive web app, which can fit any screen.  </li>
+                             <li align="justify"> Automated testing of UI was done using Python and Selenium.</li>
+
+                <h4><b>Technologies:</b></h4> JavaScript, Python, Angular, HTML5, CSS3, SQL, Selenium</li>
                 </ul>
                 <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                 </div>
